@@ -6,7 +6,7 @@ app.get("/", function(req,res){
 })
 
 app.get("/produtos", function(req,res){
-    res.send("minha lista de produtos");
+    res.send("minha lista de produtos")
 })
 
 //rota como parametro opcioinal
